@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Montserrat:ital,wght@0,100;1,300&family=Quicksand&display=swap');
+
+
+*{
+  margin:0;
+  font-family:Quicksand;
+  background-color: #011627;
+  color:#fff;
+}
+
+.App h1{
+   text-align:center;
+   padding:20px;
+}
+.heading,.heading1{
+  font-size: 100px;
+  font-family: "Monoton",cursive;
+  display: inline-block;
+}
+.heading{
+  color:orange;
+  font-weight:bold;
+}
+.heading1{
+  color:red;
+}
+.maindiv{
+  display:grid;
+  grid-template-rows: 300px 1fr;
+}
+.homepage{
+  padding:20px;
+  display:flex;
+  align-items: center;
+  max-width:600px;
+  margin:0 auto;
+  text-align:center;
+  display:block;
+}
+.carddiv{
+  margin-top:50px;
+  padding: 20px;
+}
+.homepage input{
+  margin:20px;
+  padding:13px;
+  width:400px;
+  border:none;
+  border:1px solid #fff;
+  border-radius:15px;
+  background-color:rgb(248, 204, 150);
+  box-shadow: 3px 2px 15px bisque;
+  outline:none;
+  color:#000;
+  margin-right:0;
+  border-top-right-radius:0 ;
+  border-bottom-right-radius:0;
+  font-size:large;
+
+}
+::placeholder{
+  font-size:large;
+  font-weight: bold;
+  color:#000;
+}
+.Button{
+  padding:16px;
+  border:none;
+  color:#000;
+  border:1px solid #fff;
+  cursor: pointer;
+  background-color:rgb(248, 204, 150);
+  box-shadow: 3px 2px 15px bisque;
+  border-radius:15px;
+  border-top-left-radius:0 ;
+  border-bottom-left-radius:0 ;
+  margin-left:0;
+
+}
+.display-card{
+  border:1px solid #fff;
+  padding:40px;
+  box-shadow:3px 2px 15px #fff;
+  width:500px;
+}
+.profile{
+  height:250px;
+  border-radius:50%;
+  margin-top:20px;
+  border:1px solid #fff;
+  border-width:3px;
+}
+.info li{
+  display:inline-block;
+  margin:20px;
+  font-size:x-large;
+  margin-left:3px;
+}
+.info p{
+  margin-top:8px;
+  font-size:large;
+  margin:15px 0;
+}
+.info a{
+  text-decoration: none;
+  font-weight:bold;
+  color:  rgb(216, 190, 190);
+
+}
+a:hover{
+  color:  rgb(216, 190, 190);
+  text-shadow: 0px 0px 3px rgb(216, 190, 190);
+}
+
+.err{
+  font-size:large;
+  font-weight:bold;
+}
+
+
+
+
+
+
